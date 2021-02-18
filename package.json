@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel serve src/index.html",
-    "build": "rm -rf build && parcel build src/index.html -d build --public-url /new-project/",
+    "build": "rm -rf build && parcel build src/index.html -d build --public-url /promo-nuki/",
     "min": "npx postcss src/css/index.css -u postcss-clean -o src/css/index.min.css --no-map",
     "deploy": "gh-pages -d build"
   },
