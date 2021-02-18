@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 90vw;
+  height: 90vh;
+  background: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background: linear-gradient(to right top, #2d4954, #4e5a44);
+  height: 80%;
+  width: 90%;
+}
+
+.left-box {
+  background: linear-gradient(to right top, #0090b5, #89bf69);
+  height: 400px;
+  width: 600px;
+}
+
+.right-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  height: 450px;
+  width: 400px;
+}
+
+.stars {
+  height: 20px;
+  width: 60px;
+  margin: 10px;
+  transform: rotate(90deg) translate(-160px, -80px);
+}
+
+.fas {
+  color: #fec501;
+}
+
+.shoes {
+  transform: rotate(30deg)  translate(-90px, -20px);
+}
+
+.price {
+  font-size: 4em;
+  transform: translate(190px, -180px);
+  color: grey;
+}
+
+.model {
+  transform: translate(-155px, -50px);
+}
+
+p {
+  font-size: 2em;
+}
+
+.circles {
+  transform: rotate(90deg) translate(70px, 200px);
+}
+
+.circles p {
+  font-size: 1em;
+  transform: rotate(270deg);
+  color: rgb(197, 112, 112);
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  margin: 6px;
+  border-radius: 50%;
+}
+
+.circle-1 {
+  background-color: #65cfe9;
+}
+
+.circle-2 {
+  background-color: #0097ce;
+}
+
+.circle-3 {
+  background-color: #82da90;
+}
+
+.circle-4 {
+  background-color: #f4ce53;
+}
+
+.circle-5 {
+  background-color: #6f72d3;
+}
